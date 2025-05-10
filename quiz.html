@@ -5,14 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
 </head>
+
 <body>
-    <h1 id="question-text">Questions go here</h1>
-    <button class="choices" id="button-1">Choice 1</button>
-    <button class="choices" id="button-2">Choice 2</button>
-    <button class="choices" id="button-3">Choice 3</button>
-    <button class="choices" id="button-4">Choice 4</button>
-    <p id="feedback"></p>
-    <button id="next-question">Next Question</button>
-    <script src="quizScripts.js" ></script>
+    <div id="quiz-container">
+        <h2 id="question">Quiz question will appear here</h2>
+        <button class="responses" id="response-1">A</button>
+        <button class="responses" id="response-2">B</button>
+        <button class="responses" id="response-3">C</button>
+        <button class="responses" id="response-4">D</button>
+        <p id="feedback"></p>
+        <button id="next-question" style="display: none;">Next Question</button>
+        <script src="quizScripts.js" ></script>
+    </div>
 </body>
 </html>
