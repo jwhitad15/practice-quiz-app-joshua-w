@@ -60,7 +60,12 @@ function nextQuestion() {
 answerButton1.forEach(button => button.addEventListener("click", handleAnswerSelection));
 nextButton.addEventListener("click", nextQuestion);
 
-loadQuestion();
+console.log(displayQuestion);
+
+displayQuestion();
+handleAnswerSelection();
+nextQuestion();
+
 
 
 
