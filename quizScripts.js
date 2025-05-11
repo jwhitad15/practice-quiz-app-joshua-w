@@ -14,10 +14,14 @@ const questions = [
 
 let currentQuestion = 0;
 
+// let 
+
 const quizQuestion = document.getElementById("question");
-const answerButton1 = document.getElementById("answer");
+const answerButton1 = document.getElementsByClassName("responses");
 const feedbackElement = document.getElementById("feedback");
 const nextButton = document.getElementById("next-question");
+
+
    
 function displayQuestion() {
      const current = questions[currentQuestion];
